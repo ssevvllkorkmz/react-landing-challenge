@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './styles/landing.scss';
-import Button from './components/Button/Button.jsx';
+import Button from './components/Button/Button';
 import Card from './components/Card/Card';
 import Accordion from './components/Accordion/Accordion';
 import Input from './components/Input/Input';
