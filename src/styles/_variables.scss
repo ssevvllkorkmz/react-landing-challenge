@@ -1,0 +1,16 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --primary-color: #2563eb; // Mavi tonu
+  --secondary-color: #f1f5f9;
+  --border-color: #e2e8f0;
+}
+
+
+[data-theme='dark'] {
+  --bg-color: #0f172a;
+  --text-color: #f8fafc;
+  --primary-color: #3b82f6;
+  --secondary-color: #1e293b;
+  --border-color: #334155;
+}
