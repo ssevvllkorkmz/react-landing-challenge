@@ -1,16 +1,18 @@
-# React + Vite
+# UI Component Library & Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## 🚀 Başlangıç
+1. Projeyi bilgisayarınıza indirin: `git clone [REPO_LINKIN]`
+2. Bağımlılıkları yükleyin: `npm install`
+3. Projeyi çalıştırın: `npm run dev`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🏗️ Mimari ve Kararlar
+- **Atomic Design:** Bileşenler (Atoms/Molecules) bağımsız ve tekrar kullanılabilir yapıda kurgulandı.
+- **BEM Metodolojisi:** SCSS isimlendirmeleri Block-Element-Modifier standartlarına uygun yapıldı.
+- **Erişilebilirlik:** `aria-expanded`, `focus-visible` ve semantik HTML etiketleri kullanıldı.
+- **Performans:** Lighthouse skorlarını maksimize etmek için görsel optimizasyonu ve hafif kod yapısı tercih edildi.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Özellikler
+- **Bileşenler:** Button, Input, Card, Modal, Accordion.
+- **Tema:** Global CSS Variables ile Light/Dark mode desteği.
+- **Doğrulama:** Form alanları için Regex tabanlı e-posta kontrolü ve boş alan validasyonu.
